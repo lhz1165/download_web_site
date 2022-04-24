@@ -11,4 +11,11 @@
 |                   |                                                              |
 |                   |                                                              |
 
+无密码
+mysqld --initialize-insecure --user=mysql --console
+有密码
+mysqld --initialize --user=mysql --console
 
+mysqld --install mysql8
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
